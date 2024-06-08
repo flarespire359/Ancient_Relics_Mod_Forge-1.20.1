@@ -21,7 +21,7 @@ public class Config
 
     private static final ForgeConfigSpec.BooleanValue LOG_DIRT_BLOCK = BUILDER
             .comment("Whether to log the dirt block on common setup")
-            .define("logDirtBlock", true);
+            .define("logDirtBlock", false);
 
     private static final ForgeConfigSpec.IntValue MAGIC_NUMBER = BUILDER
             .comment("A magic number")
