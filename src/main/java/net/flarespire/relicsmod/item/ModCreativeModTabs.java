@@ -1,6 +1,7 @@
 package net.flarespire.relicsmod.item;
 
 import net.flarespire.relicsmod.RelicsMod;
+import net.flarespire.relicsmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,6 +20,17 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.CRYSTALLITE.get());
                         pOutput.accept(ModItems.CRYSTALLITE_OIL.get());
+
+
+                    })
+                    .build());
+
+    public static final RegistryObject<CreativeModeTab> RELICS_TAB_2 = CREATIVE_MODE_TABS.register("relics_tab_2",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.CRYSTALLITE_BLOCK.get()))
+                    .title(Component.translatable("creativetab.relics_mod_tab_2"))
+                    .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModBlocks.CRYSTALLITE_BLOCK.get());
+                        pOutput.accept(ModBlocks.CRYSTALLITE_ORE.get());
 
 
                     })

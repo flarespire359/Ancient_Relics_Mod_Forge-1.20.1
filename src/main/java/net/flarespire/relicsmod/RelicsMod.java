@@ -1,6 +1,7 @@
 package net.flarespire.relicsmod;
 
 import com.mojang.logging.LogUtils;
+import net.flarespire.relicsmod.block.ModBlocks;
 import net.flarespire.relicsmod.item.ModCreativeModTabs;
 import net.flarespire.relicsmod.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -36,6 +37,7 @@ public class RelicsMod
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

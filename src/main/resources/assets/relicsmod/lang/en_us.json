@@ -2,5 +2,9 @@
   "item.relicsmod.crystallite": "Crystallite",
   "item.relicsmod.crystallite_oil": "Pressed Crystallite Oil",
 
-  "creativetab.relics_mod_tab": "Ancient Relics Items"
+  "block.relicsmod.crystallite_block": "Compressed Crystallite Block",
+  "block.relicsmod.crystallite_ore": "Crystallite Ore",
+
+  "creativetab.relics_mod_tab": "Ancient Relics Items",
+  "creativetab.relics_mod_tab_2": "Ancient Relics Blocks"
 }
