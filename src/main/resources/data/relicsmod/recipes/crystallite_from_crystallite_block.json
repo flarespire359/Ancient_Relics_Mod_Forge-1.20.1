@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "relicsmod:crystallite_block"
+    }
+  ],
+  "result": {
+    "item": "relicsmod:crystallite",
+    "count": 9
+  }
+}

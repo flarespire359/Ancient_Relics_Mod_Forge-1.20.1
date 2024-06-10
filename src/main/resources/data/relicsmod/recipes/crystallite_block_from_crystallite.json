@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "relicsmod:crystallite"
+    }
+  },
+  "result": {
+    "item": "relicsmod:crystallite_block"
+  }
+}
