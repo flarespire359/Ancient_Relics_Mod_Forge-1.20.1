@@ -42,6 +42,7 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.relics_mod_tab_3"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.AETHERBERRY.get());
+                        pOutput.accept(ModItems.VOID_FRUIT.get());
 
 
                     })

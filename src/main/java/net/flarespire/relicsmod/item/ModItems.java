@@ -18,6 +18,8 @@ public class ModItems {
 //Food Items.
     public static final RegistryObject<Item> AETHERBERRY = ITEMS.register("aetherberry",
         () -> new Item(new Item.Properties().food(ModFoods.AETHERBERRY)));
+    public static final RegistryObject<Item> VOID_FRUIT = ITEMS.register("void_fruit",
+            () -> new Item(new Item.Properties().food(ModFoods.VOID_FRUIT)));
 
 
     public static void register(IEventBus eventBus){
