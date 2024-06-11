@@ -10,7 +10,7 @@ public class ModFoods {
             .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 250), 0.3f).build();
 
     public static final FoodProperties VOID_FRUIT = new FoodProperties.Builder().nutrition(3).fast()
-            .saturationMod(0.3f).effect(() -> new MobEffectInstance(MobEffects.BLINDNESS, 200), 0.3f)
-            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 250), 0.3f).build();
+            .saturationMod(0.3f).effect(() -> new MobEffectInstance(MobEffects.BLINDNESS, 200), 1f)
+            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 250), 1f).build();
 
 }
