@@ -5,8 +5,6 @@ import net.flarespire.relicsmod.block.ModBlocks;
 import net.flarespire.relicsmod.item.ModCreativeModTabs;
 import net.flarespire.relicsmod.item.ModItems;
 import net.minecraft.client.Minecraft;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;

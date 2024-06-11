@@ -37,6 +37,16 @@ public class ModCreativeModTabs {
                     })
                     .build());
 
+    public static final RegistryObject<CreativeModeTab> RELICS_TAB_3 = CREATIVE_MODE_TABS.register("relics_tab_3",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.AETHERBERRY.get()))
+                    .title(Component.translatable("creativetab.relics_mod_tab_3"))
+                    .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModItems.AETHERBERRY.get());
+
+
+                    })
+                    .build());
+
     public static void  register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);
     }

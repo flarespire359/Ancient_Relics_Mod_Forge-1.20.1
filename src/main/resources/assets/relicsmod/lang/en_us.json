@@ -1,11 +1,18 @@
 {
+
   "item.relicsmod.crystallite": "Crystallite",
   "item.relicsmod.crystallite_oil": "Crystallite Oil",
+
 
   "block.relicsmod.crystallite_block": "Compressed Crystallite Block",
   "block.relicsmod.crystallite_ore": "Crystallite Ore",
   "block.relicsmod.ds_crystallite_ore": "Deepslate Crystallite Ore",
 
+
+  "item.relicsmod.aetherberry": "Aetherberry",
+
+
   "creativetab.relics_mod_tab": "Ancient Relics Items",
-  "creativetab.relics_mod_tab_2": "Ancient Relics Blocks"
+  "creativetab.relics_mod_tab_2": "Ancient Relics Blocks",
+  "creativetab.relics_mod_tab_3": "Ancient Relics Food"
 }
