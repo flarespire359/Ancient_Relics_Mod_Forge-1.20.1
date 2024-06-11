@@ -31,6 +31,7 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModBlocks.CRYSTALLITE_BLOCK.get());
                         pOutput.accept(ModBlocks.CRYSTALLITE_ORE.get());
+                        pOutput.accept(ModBlocks.DS_CRYSTALLITE_ORE.get());
 
 
                     })
