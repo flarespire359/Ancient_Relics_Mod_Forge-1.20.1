@@ -20,7 +20,7 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.CRYSTALLITE.get());
                         pOutput.accept(ModItems.CRYSTALLITE_OIL.get());
-
+                        pOutput.accept(ModItems.BURNING_CLUSTER.get());
 
                     })
                     .build());

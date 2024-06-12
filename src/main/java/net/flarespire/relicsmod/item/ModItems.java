@@ -1,6 +1,7 @@
 package net.flarespire.relicsmod.item;
 
 import net.flarespire.relicsmod.RelicsMod;
+import net.flarespire.relicsmod.item.custom.FuelItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -20,7 +21,9 @@ public class ModItems {
         () -> new Item(new Item.Properties().food(ModFoods.AETHERBERRY)));
     public static final RegistryObject<Item> VOID_FRUIT = ITEMS.register("void_fruit",
             () -> new Item(new Item.Properties().food(ModFoods.VOID_FRUIT)));
-
+//Fuel Items.
+public static final RegistryObject<Item> BURNING_CLUSTER = ITEMS.register("burning_cluster",
+        () -> new FuelItem(new Item.Properties(), 400));
 
     public static void register(IEventBus eventBus){
         ITEMS.register((eventBus));
