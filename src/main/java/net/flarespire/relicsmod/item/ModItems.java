@@ -23,7 +23,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoods.VOID_FRUIT)));
 //Fuel Items.
 public static final RegistryObject<Item> BURNING_CLUSTER = ITEMS.register("burning_cluster",
-        () -> new FuelItem(new Item.Properties(), 400));
+        () -> new FuelItem(new Item.Properties(), 1600));
 
     public static void register(IEventBus eventBus){
         ITEMS.register((eventBus));
